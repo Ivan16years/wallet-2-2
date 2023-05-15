@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <h1 class="title">
+            WALLET
+        </h1>
+        <div class="main">
+            <div class="main__column main__result">
+                <div class="diagram">
+                    <div class="diagram-title">Диаграмма расходов</div>
+                    <div class="diagram-drawing"> </div>
+                    <div class="legend">
+                        <div class="legend__list">
+                            <li class="legend__item">
+                                <span class="legend__desc">Продукты</span>
+                                <span class="legend__price">2000</span>
+                            </li>
+                            <li class="legend__item">
+                                <span class="legend__desc">Фастфуд</span>
+                                <span class="legend__price">2000</span>
+                            </li>
+                            <li class="legend__item">
+                                <span class="legend__desc">Спорт</span>
+                                <span class="legend__price">2000</span>
+                            </li>
+                            <li class="legend__item">
+                                <span class="legend__desc">Напитки</span>
+                                <span class="legend__price">2000</span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <table class="purcashes__table main__column">
+                <thead>
+                    <tr class="purcashe__head">
+                        <td class="purcashe__name">Наименвание</td>
+                        <td class="purcashe__categoty">Категория</td>
+                        <td class="purcashe__price">Цена</td>
+                    </tr>
+                </thead>
+                <thead>
+                    <tr class="purcashe__row">
+                        <td class="purcashe__name">Вода</td>
+                        <td class="purcashe__categoty">Напитки</td>
+                        <td class="purcashe__price">1200</td>
+                        <td class="purcashe__del"></td>
+                    </tr>
+                </thead>
+            </table>
+            <div class="data__input main__column">
+                <input type="product" placeholder="Товар:" id="taskInput">
+                <input type="price" placeholder="Цена:" id="taskInput">
+                <select name="selection__category">
+                    <option>Продукты</option>
+                    <option>Фастфуд</option>
+                    <option>Спорт</option>
+                    <option>Напитки</option>
+                </select>
+                <button id="add__input">Добавить</button>
+            </div>
+        </div>
+        <script src="js.js"></script>
+</body>
+
+</html>
